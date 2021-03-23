@@ -1,11 +1,48 @@
+/* Selector de elementos */
+body{
+    text-align: center;
+    background-color: #F2EDDC;
+}
+
+h1{
+    color: #F29D35;
+}
 
 
-.verde{
-    color: rgb(130, 248, 11);
+
+/* Selector de clases */
+
+.ccafe{
+    color: #A6783F;
 
 }
 
+.color{
+    color: #88C9F2;
+    border-color: #6BA5F2;
+}
+
+/* Selector de id */
 #centrado {
     text-align: center;
 
+}
+
+
+/* Selector elemento : Imagen */
+img{
+    
+    height: 150px;
+    width: 150px;
+}
+
+/* selector de clase : letra */
+.letra{
+    font-family: courier;
+    color: #D96704;
+}
+
+p{
+    font-family: courier;
+    color:
 }
