@@ -44,5 +44,13 @@ img{
 
 p{
     font-family: courier;
-    color:
+    color:white;
+}
+
+.fondo1{
+    margin: auto;
+    background-color: #D99F7E;
+    border: 3px solid #D99F7E;
+    width: 50%;
+
 }
