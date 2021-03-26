@@ -1,56 +1,83 @@
-/* Selector de elementos */
+
+*{   /* para todos los elementos de la pagina */
+    padding: 0%;
+    margin: 0;
+}
+
+
+
+
 body{
-    text-align: center;
-    background-color: #F2EDDC;
+    background-color:black;
+    font-family:  sans-serif;
+    color: white;
+}
+
+section{
+    
+    padding-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 138px;
+    
 }
 
 h1{
-    color: #F29D35;
-}
-
-
-
-/* Selector de clases */
-
-.ccafe{
-    color: #A6783F;
-
-}
-
-.color{
-    color: #88C9F2;
-    border-color: #6BA5F2;
-}
-
-/* Selector de id */
-#centrado {
-    text-align: center;
-
-}
-
-
-/* Selector elemento : Imagen */
-img{
-    
-    height: 150px;
-    width: 150px;
-}
-
-/* selector de clase : letra */
-.letra{
-    font-family: courier;
-    color: #D96704;
+    padding-top: 10px;
+    text-align: center
 }
 
 p{
-    font-family: courier;
-    color:white;
+    padding:10px 20px 0px 30px;
+    text-align:center;
+
 }
 
-.fondo1{
-    margin: auto;
-    background-color: #D99F7E;
-    border: 3px solid #D99F7E;
-    width: 50%;
+#uno{
+    background-color:cyan;
+}
+
+#dos{
+    background-color:yellow;
+}
+#tres{
+    background-color:#e56739;
+}
+
+#cuatro{
+    background-color:red;
+}
+
+aside{
+    background-color: black;
+    margin-bottom: 10px;
+    padding-bottom: 62%;
+    padding-right: 100px;
+    float: left;
+    clear:both;
+
+    
+}
+
+ul{
+    margin-top: 30px;
+    list-style-type: none; /* quita los puntos a la lista */
+    
+}
+
+li a{
+    
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+
+
+li a:hover{   /* el hover es cuando pongo el mouse encima */
+    border-bottom:  #0f0101 solid;
+    padding: 1px 1px 1px 1px;   /* Tamaño de cuadro */
+    background-color:#474040;
+    color: #bdbdbd;
 
 }
